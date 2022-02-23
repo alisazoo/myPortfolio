@@ -34,7 +34,7 @@ nav{
     padding-right: 1rem;
   }
   #sideNav .navbar-nav .nav-item .nav-link {
-    font-weight: 800;
+    font-weight: 300;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
   }
@@ -124,7 +124,6 @@ section.resume-section {
     margin-top: 2em;
 }
 
-
 .row{
     margin: auto;
 }
@@ -152,7 +151,11 @@ h1{
     font-weight: 500;
     color: var(--strongest-font-color);
     line-height: 0.8em;
-    margin: 0.25em auto;
+    margin: 0.25em auto 0.01em, auto;
+}
+
+#introduction h1{
+    font-family: "IBM Plex Mono", monospace;
 }
 
 #introduction h2{
@@ -167,6 +170,10 @@ h2{
 
 h2.sub-title{
 	color: var(--stronger-font-color);
+}
+
+#introduction h2{
+    margin-bottom: 0.5em;
 }
 
 h3{
@@ -197,14 +204,18 @@ ul, li{
     list-style: none;
     /* font-size: 1em; */
     margin-bottom: 0.5em;
+    font-family: "IBM Plex Mono", monospace;
+    /* font-family: 'Fira Sans', 'Titillium Web', sans-serif; */
 }
 .intro-list li:before{
     content: '#';
-    color: #66fcf1;
+    /* color: #66fcf1; */
+    color: #45a29c;
     font-size: 115%;
     font-weight: 200;
     vertical-align: baseline;
     display: inline;
+    margin-right: 0.02em;
 }
 
 p{
@@ -230,16 +241,18 @@ cite{
     font-weight: 250;
 }
 
-
-
 .icon{
     font-size: 2em;
     color: var(--strongest-font-color);
-    margin-right: 0.15em;
+    margin: 0.15em 0.15em auto auto;
 }
 
 .icon:hover{
 	color: var(--stronger-font-color);
+}
+
+#introduction .icon{
+    margin-top: 0.5em;
 }
 
 .icon-stamp{
