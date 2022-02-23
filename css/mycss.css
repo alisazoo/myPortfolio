@@ -196,6 +196,13 @@ a:hover{
 	color: inherit;
 }
 
+#introduction a{
+    color: var(--strongest-font-color);
+}
+#introduction a:hover{
+    color: var(--stronger-font-color);
+}
+
 ul, li{
 	color: var(--main-font-color);
 }
