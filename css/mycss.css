@@ -189,11 +189,6 @@ a:hover{
 	color: inherit;
 }
 
-.social-icon a{
-    color: var(--strongest-font-color);
-}
-
-
 ul, li{
 	color: var(--main-font-color);
 }
