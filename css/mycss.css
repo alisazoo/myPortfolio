@@ -150,12 +150,18 @@ h1{
     font-size: 5em;
     font-weight: 500;
     color: var(--strongest-font-color);
+    font-family: "IBM Plex Mono", monospace;
     line-height: 0.8em;
     margin: 0.25em auto 0.01em, auto;
 }
 
-#introduction h1{
+/* #introduction h1{
     font-family: "IBM Plex Mono", monospace;
+} */
+
+h1.jp{
+    line-height: 1.15;
+    font-family: 'Shippori Mincho', serif;
 }
 
 #introduction h2{
@@ -168,13 +174,14 @@ h2{
     color: var(--stronger-font-color);
 }
 
-h2.sub-title{
-	color: var(--stronger-font-color);
-}
-
 #introduction h2{
     margin-bottom: 0.5em;
 }
+
+h2.jp{
+    font-size: 80%;
+}
+
 
 h3{
     color: var(--strongest-font-color);
